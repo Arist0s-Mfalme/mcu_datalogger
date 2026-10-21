@@ -5,7 +5,7 @@
 	(uuid "a6024c5e-7183-4c8d-a486-33766d2a7ff5")
 	(paper "A4")
 	(title_block
-		(title "$(project_name)")
+		(title "${project_name}")
 		(rev "1")
 		(company "electron")
 		(comment 1 "ogoti_abel")
