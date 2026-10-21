@@ -5,7 +5,7 @@
 	(uuid "a6024c5e-7183-4c8d-a486-33766d2a7ff5")
 	(paper "A4")
 	(title_block
-		(title "mcu_data_logger")
+		(title "$(project_name)")
 		(rev "1")
 		(company "electron")
 		(comment 1 "ogoti_abel")
@@ -1016,199 +1016,282 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 88.9 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ce86d82-1b70-4945-bb35-b9bcd629662c")
-		(property "Reference" "#FLG04"
-			(at 88.9 85.725 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(hierarchical_label "MOSI"
+		(shape input)
+		(at 85.09 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
 			)
+			(justify left)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 88.9 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "0e0dbe99-1570-463a-bdd6-8fff39c7a3b6")
+	)
+	(hierarchical_label "SCK"
+		(shape passive)
+		(at 72.39 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
 			)
+			(justify right)
 		)
-		(property "Footprint" ""
-			(at 88.9 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "15781f95-d5c3-44d7-ba3f-740d0851f40a")
+	)
+	(hierarchical_label "MISO"
+		(shape output)
+		(at 72.39 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
 			)
+			(justify right)
 		)
-		(property "Datasheet" ""
-			(at 88.9 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "185780b5-7435-400c-915c-f6f089876f4c")
+	)
+	(hierarchical_label "D8"
+		(shape bidirectional)
+		(at 83.82 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
 			)
+			(justify left)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 88.9 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "35e22df5-2b98-4e0e-b9f5-081c41003ead")
+	)
+	(hierarchical_label "Vcc"
+		(shape passive)
+		(at 85.09 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
 			)
+			(justify left)
 		)
-		(pin "1"
-			(uuid "fca3bf55-5f66-4785-b952-77f59c03d773")
-		)
-		(instances
-			(project "MCU datalogger"
-				(path "/6cfcfaf3-9533-4029-8ea8-b3962b3ab879/c9ff26dd-a1d7-4742-81fc-4bb6d92813c8"
-					(reference "#FLG04")
-					(unit 1)
-				)
+		(uuid "4fee529d-6325-4c20-817c-585716211cfa")
+	)
+	(hierarchical_label "D5"
+		(shape bidirectional)
+		(at 83.82 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
 			)
+			(justify left)
 		)
+		(uuid "57f35597-4ea2-419f-a0c1-1d2f76684ba5")
+	)
+	(hierarchical_label "RESET"
+		(shape passive)
+		(at 72.39 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify right)
+		)
+		(uuid "62aa82dd-cddf-4dcd-9e1c-31d73f4a251e")
+	)
+	(hierarchical_label "D4"
+		(shape bidirectional)
+		(at 83.82 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "77343eef-e4ab-4c5d-b975-5a3a967988a3")
+	)
+	(hierarchical_label "TX"
+		(shape output)
+		(at 144.78 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "79cd064c-1122-4e37-a2c2-aadac4106886")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 144.78 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "7eb4ad2d-8d56-4e08-8e4c-95febc14d64e")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 111.76 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "87ef357c-d673-4a9f-8273-f470400d5ff1")
+	)
+	(hierarchical_label "D6"
+		(shape bidirectional)
+		(at 83.82 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "8b8077f9-0d24-429c-a8ca-eefbc73f687b")
+	)
+	(hierarchical_label "Vcc"
+		(shape passive)
+		(at 144.78 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "8ce228c4-64ec-4b75-a7e4-dd9ebcc46287")
+	)
+	(hierarchical_label "RX"
+		(shape bidirectional)
+		(at 144.78 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "8e1bfda7-a6f7-492a-aac5-b8d17e690ff8")
+	)
+	(hierarchical_label "Vcc"
+		(shape passive)
+		(at 111.76 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "97462ce2-c771-449f-a22b-7d27f117ecea")
+	)
+	(hierarchical_label "D2"
+		(shape bidirectional)
+		(at 83.82 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "a22144eb-69dd-4884-95a6-60348e7a8f61")
+	)
+	(hierarchical_label "D7"
+		(shape bidirectional)
+		(at 83.82 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "a6b560cf-30d3-4171-ad3e-0e800d5c7183")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 111.76 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "a988e731-8de1-41ac-8d13-a117b831d19a")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 83.82 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "ad666f66-a9fc-4d14-a108-3be3de25b477")
+	)
+	(hierarchical_label "Vcc"
+		(shape passive)
+		(at 83.82 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "af4f902c-09c4-49a7-bf78-571ef582654a")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 85.09 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "b07af0c9-c4b4-42a8-84a4-48e84a6fa26c")
+	)
+	(hierarchical_label "D3"
+		(shape bidirectional)
+		(at 83.82 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "dc7d1ba2-e427-4ab3-af41-0ab0684312b9")
+	)
+	(hierarchical_label "SCK"
+		(shape passive)
+		(at 111.76 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "fc9e42fb-1fc4-4ee5-b5bd-0633f1905c69")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x09_Pin")
@@ -1220,9 +1303,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "38489b98-5e33-4758-b743-7cc10cf8e47e")
-		(property "Reference" "J5"
+		(property "Reference" "J2"
 			(at 79.375 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1275,6 +1357,16 @@
 				)
 			)
 		)
+		(property "Purpose" "GPIO"
+			(at 81.28 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "044b54be-7b6d-47dd-8fc4-f35e573e316b")
 		)
@@ -1305,7 +1397,7 @@
 		(instances
 			(project "MCU datalogger"
 				(path "/6cfcfaf3-9533-4029-8ea8-b3962b3ab879/c9ff26dd-a1d7-4742-81fc-4bb6d92813c8"
-					(reference "J5")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1313,7 +1405,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 96.52 59.69 0)
+		(at 106.68 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1321,10 +1413,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "904cd508-37e3-44ea-9d26-7e5798d4be5b")
-		(property "Reference" "J6"
-			(at 97.155 52.07 0)
+		(property "Reference" "J1"
+			(at 107.315 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1334,7 +1425,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 97.155 54.61 0)
+			(at 107.315 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1344,7 +1435,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 96.52 59.69 0)
+			(at 106.68 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1355,7 +1446,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 59.69 0)
+			(at 106.68 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1366,8 +1457,18 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 96.52 59.69 0)
+			(at 106.68 59.69 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "I2C"
+			(at 109.22 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1391,7 +1492,7 @@
 		(instances
 			(project "MCU datalogger"
 				(path "/6cfcfaf3-9533-4029-8ea8-b3962b3ab879/c9ff26dd-a1d7-4742-81fc-4bb6d92813c8"
-					(reference "J6")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -1399,7 +1500,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
-		(at 97.79 76.2 0)
+		(at 77.47 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1407,10 +1508,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "adc5ae4f-238c-41cd-aaaa-efd130e55be4")
-		(property "Reference" "J7"
-			(at 99.06 67.31 0)
+		(property "Reference" "J4"
+			(at 78.74 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1420,7 +1520,7 @@
 			)
 		)
 		(property "Value" "Conn_02x03_Odd_Even"
-			(at 99.06 69.85 0)
+			(at 78.74 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1430,7 +1530,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
-			(at 97.79 76.2 0)
+			(at 77.47 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1441,7 +1541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 76.2 0)
+			(at 77.47 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1452,8 +1552,18 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 97.79 76.2 0)
+			(at 77.47 101.6 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "ICSP"
+			(at 78.74 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1483,7 +1593,7 @@
 		(instances
 			(project "MCU datalogger"
 				(path "/6cfcfaf3-9533-4029-8ea8-b3962b3ab879/c9ff26dd-a1d7-4742-81fc-4bb6d92813c8"
-					(reference "J7")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1491,7 +1601,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 114.3 59.69 0)
+		(at 139.7 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1500,8 +1610,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9bf1ce9-0952-4e62-b116-33f5718a779f")
-		(property "Reference" "J8"
-			(at 114.935 52.07 0)
+		(property "Reference" "J3"
+			(at 140.335 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1511,7 +1621,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 114.935 54.61 0)
+			(at 140.335 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1521,7 +1631,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 114.3 59.69 0)
+			(at 139.7 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1532,7 +1642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 59.69 0)
+			(at 139.7 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1543,8 +1653,18 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 114.3 59.69 0)
+			(at 139.7 60.96 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "serial"
+			(at 142.24 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1568,7 +1688,7 @@
 		(instances
 			(project "MCU datalogger"
 				(path "/6cfcfaf3-9533-4029-8ea8-b3962b3ab879/c9ff26dd-a1d7-4742-81fc-4bb6d92813c8"
-					(reference "J8")
+					(reference "J3")
 					(unit 1)
 				)
 			)

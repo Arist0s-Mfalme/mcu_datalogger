@@ -279,6 +279,13 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -417,6 +424,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -429,7 +444,7 @@
         "uuid": "6cfcfaf3-9533-4029-8ea8-b3962b3ab879"
       }
     ],
-    "used_designators": "#FLG1-4,#PWR1-8,Y1-2,U1-2,U4,R1-7,J1,J3-8,D1-2,C1-5,H1-4,BT1",
+    "used_designators": "#FLG1-4,#PWR1-9,Y1-2,U1-2,U4,R1-7,J1,J3-8,D1-2,C1-5,H1-4,BT1",
     "variants": []
   },
   "sheets": [
@@ -442,7 +457,9 @@
       "Sheet_2"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "project_name": "MCU data logger with memory and clock"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0
