@@ -1,0 +1,8 @@
+# Ignore local history folder
+.history/
+
+# Ignore KiCad lock files
+*.lck
+
+# Ignore all auto-generated restore backups
+_restore_backup_*

@@ -1,0 +1,6 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ATMEGA328P-AU") (type "KiCad") (uri "/home/abel-ogoti/Documents/Tech/kicad/personal_projects/libraries/snapEDA_lib/ATMEGA328P-AU") (options "") (descr ""))
+	(lib (name "DS1337S") (type "KiCad") (uri "/home/abel-ogoti/Documents/Tech/kicad/personal_projects/libraries/snapEDA_lib/DS1337S_/DS1337S.pretty") (options "") (descr ""))
+	(lib (name "Kicad_lib") (type "KiCad") (uri "/home/abel-ogoti/Documents/Tech/kicad/personal_projects/libraries/Kicad_lib") (options "") (descr ""))
+)
