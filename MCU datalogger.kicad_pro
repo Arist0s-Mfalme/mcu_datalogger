@@ -544,7 +544,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "MCU datalogger gerber files/2-layer gerber files/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
