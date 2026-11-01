@@ -154,7 +154,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "MCU datalogger gerber files/2-layer gerber files/")
+			(outputdirectory "MCU datalogger gerber files/4-layer gerber files/")
 		)
 	)
 	(property "project_name" "MCU_data_logger_with_memory_and_clock")
@@ -8045,6 +8045,443 @@
 				(bold yes)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(table
+		(column_count 4)
+		(uuid "8fafd360-613b-464b-a963-35735631cd17")
+		(layer "User.1")
+		(border
+			(external no)
+			(header no)
+		)
+		(separators
+			(rows no)
+			(cols no)
+		)
+		(column_widths 39.978931 34.921285 28.128459 15.564641)
+		(row_heights 4.405 4.204748 3.705 4.274527 4.197388 4.197388 4.205)
+		(cells
+			(table_cell "BOARD CHARACTERISTICS"
+				(start 199.898 64.643)
+				(end 318.491316 69.048)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 4 1)
+				(layer "User.1")
+				(uuid "be18612f-28d9-4024-82e1-caa5b23e9292")
+				(effects
+					(font
+						(size 2 2)
+						(thickness 0.4)
+					)
+					(justify left)
+				)
+			)
+			(table_cell ""
+				(start 239.876931 64.643)
+				(end 274.798216 69.048)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 0 1)
+				(layer "User.1")
+				(uuid "4b7f03aa-dc0e-4ba9-be67-aaf5c3707813")
+				(effects
+					(font
+						(size 2 2)
+						(thickness 0.4)
+					)
+					(justify left)
+				)
+			)
+			(table_cell ""
+				(start 274.798216 64.643)
+				(end 302.926675 69.048)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 0 1)
+				(layer "User.1")
+				(uuid "ad360a8f-c395-4145-bcd1-4ad00e17d1c8")
+				(effects
+					(font
+						(size 2 2)
+						(thickness 0.4)
+					)
+					(justify left)
+				)
+			)
+			(table_cell ""
+				(start 302.926675 64.643)
+				(end 318.491316 69.048)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 0 1)
+				(layer "User.1")
+				(uuid "a77ea6b6-ba26-4e11-8fa2-298c1f493085")
+				(effects
+					(font
+						(size 2 2)
+						(thickness 0.4)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Copper layer count: "
+				(start 199.898 69.048)
+				(end 239.876931 73.252748)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "User.1")
+				(uuid "57ed669c-d5af-4eec-8cbc-98793250eee6")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "4"
+				(start 239.876931 69.048)
+				(end 274.798216 73.252748)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "User.1")
+				(uuid "8e7c2ed5-818c-4d82-85c1-247ad0693edf")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Board thickness: "
+				(start 274.798216 69.048)
+				(end 302.926675 73.252748)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "User.1")
+				(uuid "f6098b7e-83d3-42aa-865b-fead7c10a03d")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "1.6000 mm"
+				(start 302.926675 69.048)
+				(end 318.491316 73.252748)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "User.1")
+				(uuid "0608f6c9-b945-4f07-b95a-43da5b6457cd")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Board overall dimensions: "
+				(start 199.898 73.252748)
+				(end 239.876931 76.957748)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "User.1")
+				(uuid "f7947368-3c46-4927-a34c-58242d7ea8c5")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "51.3665 mm x 31.8088 mm"
+				(start 239.876931 73.252748)
+				(end 274.798216 76.957748)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "User.1")
+				(uuid "fd69b774-92fc-43a9-a96e-7907b80a7847")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell ""
+				(start 274.798216 73.252748)
+				(end 302.926675 76.957748)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "User.1")
+				(uuid "696aff34-d024-49a1-aa4a-b2f9d95b6142")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell ""
+				(start 302.926675 73.252748)
+				(end 318.491316 76.957748)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "User.1")
+				(uuid "d9c4eb7f-f15d-4a0c-bef4-5cbfd30bbea9")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Min track/spacing: "
+				(start 199.898 76.957748)
+				(end 239.876931 81.232275)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "User.1")
+				(uuid "d855090e-b752-4a6f-8a91-af264721293b")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "0.2000 mm / 0.2000 mm"
+				(start 239.876931 76.957748)
+				(end 274.798216 81.232275)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "User.1")
+				(uuid "3d03ebff-6534-4216-a254-ca4e8e07a496")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Min hole diameter: "
+				(start 274.798216 76.957748)
+				(end 302.926675 81.232275)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "User.1")
+				(uuid "86c6b1dc-58ff-4fa4-a50c-8b58e26f93eb")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "0.3000 mm"
+				(start 302.926675 76.957748)
+				(end 318.491316 81.232275)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "User.1")
+				(uuid "1031f397-ec51-493a-a373-05638b8801b6")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Copper finish: "
+				(start 199.898 81.232275)
+				(end 239.876931 85.429663)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "User.1")
+				(uuid "a8df5997-7587-4c78-a3d6-906c9e6533d1")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "None"
+				(start 239.876931 81.232275)
+				(end 274.798216 85.429663)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "User.1")
+				(uuid "d28b2622-5fdf-4b00-ba8f-86629b9d84b1")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Impedance control: "
+				(start 274.798216 81.232275)
+				(end 302.926675 85.429663)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "User.1")
+				(uuid "bf2ad6c7-5586-435f-9018-49fa69c03ee2")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "No"
+				(start 302.926675 81.232275)
+				(end 318.491316 85.429663)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "User.1")
+				(uuid "2184654b-20d9-4e1f-b973-77161d2ec253")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Castellated pads: "
+				(start 199.898 85.429663)
+				(end 239.876931 89.627051)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "User.1")
+				(uuid "e34b81f1-51c7-4c8d-b51d-883f37afe60a")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "No"
+				(start 239.876931 85.429663)
+				(end 274.798216 89.627051)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "User.1")
+				(uuid "92567468-0d5f-49ce-98bd-e70f15b00f4c")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Press-fit pads: "
+				(start 274.798216 85.429663)
+				(end 302.926675 89.627051)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "User.1")
+				(uuid "32d2aad1-bc39-4c95-a414-ee6bcc39653e")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "No"
+				(start 302.926675 85.429663)
+				(end 318.491316 89.627051)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "User.1")
+				(uuid "efa8b5c4-78af-465e-88e8-27b032e874a1")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Plated board edge: "
+				(start 199.898 89.627051)
+				(end 239.876931 93.832051)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "User.1")
+				(uuid "14c52d80-8b30-4d6f-924c-c44a88a57160")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "No"
+				(start 239.876931 89.627051)
+				(end 274.798216 93.832051)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "User.1")
+				(uuid "ef562a1d-0068-41ea-b69f-c2190e2e0390")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Edge card connectors: "
+				(start 274.798216 89.627051)
+				(end 302.926675 93.832051)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "User.1")
+				(uuid "349c5bba-0539-491a-a766-24a3bb365c32")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "No"
+				(start 302.926675 89.627051)
+				(end 318.491316 93.832051)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "User.1")
+				(uuid "3989e432-1dd8-4313-afca-4f4beaf82710")
+				(effects
+					(font
+						(size 1.5 1.5)
+						(thickness 0.2)
+					)
+					(justify left)
+				)
+			)
 		)
 	)
 	(segment
